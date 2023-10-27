@@ -1,0 +1,30 @@
+{
+    "data":[
+        {
+            "id":"assqef",
+            "title":"Naruto",
+            "genre":"Drama",
+            "deskripsi": "lorem jnasj jansjnanj0",
+            "durasi": 120 ,
+            "rating": "8" ,
+            "keterangan":"sudah Nonton",
+            "id_kategori":"asd1e3asfas"
+        } ,
+        {
+            "id":"asfaf23sss",
+            "title":"The Shawshank Redemption",
+            "genre":"Drama",
+            "deskripsi": "lorem jnasj jansjnanj0",
+            "durasi": 120 ,
+            "rating": "8" ,
+            "keterangan":"sudah Nonton",
+            "id_kategori":"asd1e3asfas"
+        } 
+    ],
+    "category":[
+        {
+            "id":"asd1e3asfas",
+            "name":"Drama"
+        }
+    ] 
+}

@@ -1,0 +1,36 @@
+<template>
+      <div>
+            <h1>{{ Heading }}</h1>
+            <div class="flex place-content-center">
+                <h3>Menu List</h3>
+                
+            </div>
+      </div>
+</template>
+
+<script setup lang="ts">
+import { ref } from 'vue'
+import type { Ref } from 'vue'
+import {useFetch} from './services/fetch'
+
+const Heading: Ref<string> = ref("Menus Fovorit");
+  // import { useFetch } from './'
+const data: any = ref(null)
+const error: any = ref(null);
+
+// fetch('http://192.168.15.202:8080/foods', {
+//   method: 'GET',
+//   headers: {
+//     'Content-Type': 'application/json',
+//   },
+//   mode: 'cors',
+// })
+//   .then((res) => res.json())
+//   .then((json) => (data.value = json))
+//   .catch((err) => (error.value = err))
+
+// console.log(data.value)
+
+
+
+</script>
